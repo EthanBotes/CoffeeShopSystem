@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6838f90a-ff98-434a-aa3e-75e9b725c61e" name="Changes" comment="Coffee System v0.0.3 - Helper and Factory&#10;&#10;All Factory and Helper classes have been updated to correct any invalid entries. All methods for validation are stored in the Helper classes. All building and restrictions to the entries are placed within the Factory classes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/domain/Barista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/domain/Cleaner.java" afterDir="false" />
+    <list default="true" id="6838f90a-ff98-434a-aa3e-75e9b725c61e" name="Changes" comment="Cleaner and Barista domains complete.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/factory/BaristaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/factory/CleanerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/util/BaristaHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/util/CleanerHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <workItem from="1679297259054" duration="1520000" />
       <workItem from="1679303502539" duration="5162000" />
       <workItem from="1679311908008" duration="4390000" />
-      <workItem from="1679517619819" duration="2167000" />
+      <workItem from="1679517619819" duration="3177000" />
     </task>
     <task id="LOCAL-00001" summary="Coffee System v0.0.0 - Base code&#10;This is the Coffee System layout with just the main, xmls and folders to begin on development of our coffee system for 2023. Ensure all naming conventions are camelCase and that all files and additional folders are named correctly.">
       <created>1679055180959</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679389261111</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cleaner and Barista domains complete.">
+      <created>1679519838100</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679519838100</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +210,7 @@
     <MESSAGE value="Coffee System v0.0.1 - Base code&#10;&#10;Customer and CustomerOrder entities have been created using the correct Builder Pattern and attributes." />
     <MESSAGE value="This is all entities and relevant attributes along with builder patterns for the relevant entities." />
     <MESSAGE value="Coffee System v0.0.3 - Helper and Factory&#10;&#10;All Factory and Helper classes have been updated to correct any invalid entries. All methods for validation are stored in the Helper classes. All building and restrictions to the entries are placed within the Factory classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Coffee System v0.0.3 - Helper and Factory&#10;&#10;All Factory and Helper classes have been updated to correct any invalid entries. All methods for validation are stored in the Helper classes. All building and restrictions to the entries are placed within the Factory classes." />
+    <MESSAGE value="Cleaner and Barista domains complete." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaner and Barista domains complete." />
   </component>
 </project>
